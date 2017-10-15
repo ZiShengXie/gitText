@@ -18,6 +18,7 @@
     [super viewDidLoad];
     NSLog(@"hihi");
     NSLog(@"第二次上传");
+    NSLog(@"第三次上传");
 }
 
 
