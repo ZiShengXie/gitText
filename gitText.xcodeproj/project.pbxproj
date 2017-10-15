@@ -16,6 +16,7 @@
 		383F02FC1F90F2BF00E8BC53 /* gitTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F02FB1F90F2BF00E8BC53 /* gitTextTests.m */; };
 		383F03071F90F2BF00E8BC53 /* gitTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F03061F90F2BF00E8BC53 /* gitTextUITests.m */; };
 		3872A00C1F93599D008DF4FF /* AddObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 3872A00B1F93599D008DF4FF /* AddObject.m */; };
+		3872A00F1F936066008DF4FF /* NewBranchFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3872A00E1F936066008DF4FF /* NewBranchFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		383F03081F90F2BF00E8BC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3872A00A1F93599D008DF4FF /* AddObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddObject.h; sourceTree = "<group>"; };
 		3872A00B1F93599D008DF4FF /* AddObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddObject.m; sourceTree = "<group>"; };
+		3872A00D1F936066008DF4FF /* NewBranchFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewBranchFile.h; sourceTree = "<group>"; };
+		3872A00E1F936066008DF4FF /* NewBranchFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewBranchFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				383F02F11F90F2BF00E8BC53 /* main.m */,
 				3872A00A1F93599D008DF4FF /* AddObject.h */,
 				3872A00B1F93599D008DF4FF /* AddObject.m */,
+				3872A00D1F936066008DF4FF /* NewBranchFile.h */,
+				3872A00E1F936066008DF4FF /* NewBranchFile.m */,
 			);
 			path = gitText;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				383F02E71F90F2BE00E8BC53 /* ViewController.m in Sources */,
 				383F02F21F90F2BF00E8BC53 /* main.m in Sources */,
+				3872A00F1F936066008DF4FF /* NewBranchFile.m in Sources */,
 				3872A00C1F93599D008DF4FF /* AddObject.m in Sources */,
 				383F02E41F90F2BE00E8BC53 /* AppDelegate.m in Sources */,
 			);
