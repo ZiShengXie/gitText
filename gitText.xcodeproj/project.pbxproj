@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1766586AD4AAEF543697BF3F /* libPods-gitText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0359AF895765FA09FE242C04 /* libPods-gitText.a */; };
+		383B53801F9648370083E3F3 /* MaosryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383B537F1F9648370083E3F3 /* MaosryViewController.m */; };
 		383F02E41F90F2BE00E8BC53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F02E31F90F2BE00E8BC53 /* AppDelegate.m */; };
 		383F02E71F90F2BE00E8BC53 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 383F02E61F90F2BE00E8BC53 /* ViewController.m */; };
 		383F02EA1F90F2BE00E8BC53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383F02E81F90F2BE00E8BC53 /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0359AF895765FA09FE242C04 /* libPods-gitText.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gitText.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		383B537C1F963EB90083E3F3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		383B537E1F9648370083E3F3 /* MaosryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaosryViewController.h; sourceTree = "<group>"; };
+		383B537F1F9648370083E3F3 /* MaosryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaosryViewController.m; sourceTree = "<group>"; };
 		383F02DF1F90F2BE00E8BC53 /* gitText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitText.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		383F02E21F90F2BE00E8BC53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		383F02E31F90F2BE00E8BC53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,8 @@
 		383F03021F90F2BF00E8BC53 /* gitTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		383F03061F90F2BF00E8BC53 /* gitTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTextUITests.m; sourceTree = "<group>"; };
 		383F03081F90F2BF00E8BC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68007FC199956B5A03C7E333 /* Pods-gitText.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitText.release.xcconfig"; path = "Pods/Target Support Files/Pods-gitText/Pods-gitText.release.xcconfig"; sourceTree = "<group>"; };
+		B54C8021A9617320304ACB8A /* Pods-gitText.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitText.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gitText/Pods-gitText.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1766586AD4AAEF543697BF3F /* libPods-gitText.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +87,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		383B53771F963E970083E3F3 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				383B53781F963E970083E3F3 /* Controller */,
+				383B53791F963E970083E3F3 /* Model */,
+				383B537A1F963E970083E3F3 /* Utils */,
+				383B537B1F963E970083E3F3 /* View */,
+			);
+			name = Class;
+			path = gitText/Class;
+			sourceTree = "<group>";
+		};
+		383B53781F963E970083E3F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				383B537D1F9648060083E3F3 /* 2017.10.17 masory */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		383B53791F963E970083E3F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		383B537A1F963E970083E3F3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				383B537C1F963EB90083E3F3 /* PrefixHeader.pch */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		383B537B1F963E970083E3F3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		383B537D1F9648060083E3F3 /* 2017.10.17 masory */ = {
+			isa = PBXGroup;
+			children = (
+				383B537E1F9648370083E3F3 /* MaosryViewController.h */,
+				383B537F1F9648370083E3F3 /* MaosryViewController.m */,
+			);
+			path = "2017.10.17 masory";
+			sourceTree = "<group>";
+		};
 		383F02D61F90F2BE00E8BC53 = {
 			isa = PBXGroup;
 			children = (
+				383B53771F963E970083E3F3 /* Class */,
 				383F02E11F90F2BE00E8BC53 /* gitText */,
 				383F02FA1F90F2BF00E8BC53 /* gitTextTests */,
 				383F03051F90F2BF00E8BC53 /* gitTextUITests */,
 				383F02E01F90F2BE00E8BC53 /* Products */,
+				D73709BD198599C9E07BCD86 /* Pods */,
+				D53DEE4C3BE855E556E125D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +195,23 @@
 			path = gitTextUITests;
 			sourceTree = "<group>";
 		};
+		D53DEE4C3BE855E556E125D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0359AF895765FA09FE242C04 /* libPods-gitText.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D73709BD198599C9E07BCD86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B54C8021A9617320304ACB8A /* Pods-gitText.debug.xcconfig */,
+				68007FC199956B5A03C7E333 /* Pods-gitText.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 383F030B1F90F2BF00E8BC53 /* Build configuration list for PBXNativeTarget "gitText" */;
 			buildPhases = (
+				6FB78777693547A13CDF8AB5 /* [CP] Check Pods Manifest.lock */,
 				383F02DB1F90F2BE00E8BC53 /* Sources */,
 				383F02DC1F90F2BE00E8BC53 /* Frameworks */,
 				383F02DD1F90F2BE00E8BC53 /* Resources */,
+				CE343ED8FE3E3CD26F45BEDD /* [CP] Embed Pods Frameworks */,
+				8D29D1946A76AF10E6647271 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +343,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FB78777693547A13CDF8AB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gitText-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D29D1946A76AF10E6647271 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gitText/Pods-gitText-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE343ED8FE3E3CD26F45BEDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gitText/Pods-gitText-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		383F02DB1F90F2BE00E8BC53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +402,7 @@
 				383F02E71F90F2BE00E8BC53 /* ViewController.m in Sources */,
 				383F02F21F90F2BF00E8BC53 /* main.m in Sources */,
 				383F02E41F90F2BE00E8BC53 /* AppDelegate.m in Sources */,
+				383B53801F9648370083E3F3 /* MaosryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +563,12 @@
 		};
 		383F030C1F90F2BF00E8BC53 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54C8021A9617320304ACB8A /* Pods-gitText.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7PB5HG77R;
+				GCC_PREFIX_HEADER = gitText/Class/Utils/PrefixHeader.pch;
 				INFOPLIST_FILE = gitText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YX.gitText;
@@ -442,10 +579,12 @@
 		};
 		383F030D1F90F2BF00E8BC53 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68007FC199956B5A03C7E333 /* Pods-gitText.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7PB5HG77R;
+				GCC_PREFIX_HEADER = gitText/Class/Utils/PrefixHeader.pch;
 				INFOPLIST_FILE = gitText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YX.gitText;
